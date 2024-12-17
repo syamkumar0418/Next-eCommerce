@@ -397,8 +397,9 @@ const QuickViewModal = () => {
             <ShowDetails />
           </div>
         </div>
-        <RelatedItems />
+ 
       </section>
+      <RelatedItems />
     </>
   );
  

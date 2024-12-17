@@ -23,7 +23,7 @@ const RelatedItems = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
 
-  return (
+  return ( 
     <section className="overflow-hidden pt-17.5">
       <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0 pb-15 border-b border-gray-3">
         <div className="swiper categories-carousel common-carousel">
@@ -87,7 +87,21 @@ const RelatedItems = () => {
             ref={sliderRef}
             slidesPerView={4}
             spaceBetween={20}
-            className="justify-between"
+            className="justify-between"  
+            breakpoints={{
+              // when window width is >= 640px
+              0: {
+                slidesPerView: 2,
+              },
+              1000: {
+                slidesPerView: 4,
+                // spaceBetween: 4,
+              },
+              // when window width is >= 768px
+              1200: {
+                slidesPerView: 6,
+              },
+            }}
           >
             {shopData.map((item, key) => (
               <SwiperSlide key={key}>
