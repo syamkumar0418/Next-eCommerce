@@ -32,7 +32,7 @@ const Footer = () => {
                     />
                   </svg>
                 </span>
-               ACSRA 56, Kaloor, Kochi, India- 682020 ,United States.
+                ACSRA 56, Kaloor, Kochi, India- 682020.
               </li>
 
               <li>
@@ -192,13 +192,12 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-            </div>
-            {/* <!-- Social Links end --> */}
+            </div> 
           </div>
 
           <div className="w-full sm:w-auto">
-        
- 
+
+
           </div>
 
           <div className="w-full sm:w-auto">
@@ -323,7 +322,7 @@ const Footer = () => {
                     width={66}
                     height={22}
                   />
-                </a> 
+                </a>
                 <a href="#" aria-label="payment system with master card">
                   <Image
                     src="/images/payment/payment-03.svg"
@@ -331,7 +330,7 @@ const Footer = () => {
                     width={33}
                     height={24}
                   />
-                </a> 
+                </a>
                 <a href="#" aria-label="payment system with google pay">
                   <Image
                     src="/images/payment/payment-05.svg"
